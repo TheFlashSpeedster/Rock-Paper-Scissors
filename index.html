@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/rps.png">
+</head>
+
+<body>
+  <div class="game">
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="option">
+
+      <!-- ROCK -->
+      <button id="rock" onclick="
+    let userChoice='rock';
+    let computerChoice = genComputerChoice();
+    let winner = genWinner(userChoice, computerChoice);
+    console.log(rn)
+    console.log(computerChoice);
+    console.log(winner);
+    document.querySelector('.result').innerHTML=winner;
+    "><img src="images/rock.png" alt="rock-img"></button>
+
+      <!-- PAPER -->
+      <button id="paper" onclick="
+    userChoice='paper';
+    computerChoice=genComputerChoice();
+    winner=genWinner(userChoice, computerChoice);
+    console.log(rn)
+    console.log(computerChoice);
+    console.log(winner);
+    document.querySelector('.result').innerHTML=winner;
+    "><img src="images/paper.png" alt="paper-img"></button>
+
+      <!-- SCISSORS -->
+      <button id="scissor" onclick="
+    userChoice='scissors';
+    computerChoice=genComputerChoice();
+    winner=genWinner(userChoice, computerChoice);
+    console.log(rn)
+    console.log(computerChoice);
+    console.log(winner);
+    document.querySelector('.result').innerHTML=winner;
+    "><img src="images/scissors.png" alt="scissors-img"></button>
+
+      <div class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

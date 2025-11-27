@@ -1,0 +1,40 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.option button img {
+  width: 80px;
+}
+
+.game {
+  background-color: darkcyan;
+  padding: 50px;
+}
+
+.option {
+  margin: 40px;
+}
+
+.option button {
+  background-color: rgb(0, 206, 209);
+  border: 4px red solid;
+  padding: 20px;
+  border-radius: 60%;
+}
+
+.option button:hover {
+  background-color: rgb(11, 192, 195);
+}
+
+.result {
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px yellow solid;
+  border-radius: 30px;
+  background-color: bisque;
+}
