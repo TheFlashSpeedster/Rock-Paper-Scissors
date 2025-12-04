@@ -28,9 +28,12 @@ footer a {
   width: 80px;
 }
 
-.option {
+.game {
   margin: auto;
+  margin-top: 120px;
 }
+
+
 
 .option button {
   background-color: rgb(0, 206, 209);
