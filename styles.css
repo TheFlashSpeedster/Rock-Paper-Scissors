@@ -11,10 +11,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 footer {
-  width: 100vw;
+  width: 100%;
   padding: 15px;
   text-align: center;
   position: fixed;
