@@ -20,9 +20,6 @@
     let userChoice='rock';
     let computerChoice = genComputerChoice();
     let winner = genWinner(userChoice, computerChoice);
-    console.log(rn)
-    console.log(computerChoice);
-    console.log(winner);
     document.querySelector('.result').innerHTML=winner;
     "><img src="images/rock.png" alt="rock-img"></button>
 
@@ -31,9 +28,6 @@
     userChoice='paper';
     computerChoice=genComputerChoice();
     winner=genWinner(userChoice, computerChoice);
-    console.log(rn)
-    console.log(computerChoice);
-    console.log(winner);
     document.querySelector('.result').innerHTML=winner;
     "><img src="images/paper.png" alt="paper-img"></button>
 
@@ -42,13 +36,12 @@
     userChoice='scissors';
     computerChoice=genComputerChoice();
     winner=genWinner(userChoice, computerChoice);
-    console.log(rn)
-    console.log(computerChoice);
-    console.log(winner);
     document.querySelector('.result').innerHTML=winner;
     "><img src="images/scissors.png" alt="scissors-img"></button>
 
-      <div class="result"></div>
+      <div class="result">
+        <b>Please Pick</b>
+      </div>
     </div>
 
     <script src="script.js"></script>
